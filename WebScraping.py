@@ -90,7 +90,7 @@ sleep(5)
 # Parameter
 html_ = driver.page_source
 
-# Cria um objeto BeautifulSoup para analisar o HTML
+# Create an BeautifulSoup object to analyze the HTML 
 soup_ = BeautifulSoup(html_, 'html.parser')
 
 # Shortcuts
